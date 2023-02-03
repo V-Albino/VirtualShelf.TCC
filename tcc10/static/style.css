@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(14, 152, 165); 
+    width: 100%; height: 100%;
+    position: relative;
+    z-index:11;
+    font-family: 'Lato', sans-serif;
+    background-image: url(../static/img/fundoImg.jpeg);
+            
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+h2{
+    padding-left: 25px; padding-top: 25px;
+}
+.circlediv{
+    text-align: center; font-size: 30px;
+    display:inline-block;
+    margin-bottom: 2rem;
+}
+a{
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.container-sessoes-index{
+    text-align: center;
+}
+.tabela-fundo{
+    background-color: rgb(211, 236, 255);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 5px 5px 15px rgba(0,0,0, 0.4);
+}
+.table{
+    border-color: rgb(97, 97, 97);
+    
+}
+.card-body{
+    flex: 1 1 auto;
+}
+.search-box{
+    display:inline-block flex;
+    background-color: rgb(211, 236, 255);
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 5px;
+    border-radius: 30px;
+}
+.search-box input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px rgb(211, 236, 255) inset;
+}
+.search-txt{
+    border: none;
+    outline: none;
+    color: #6c757d;
+    background-color: rgb(211, 236, 255);
+}
+.search-btn{
+    border: none;
+    background-color: rgb(211, 236, 255);
+    padding: 5px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.search-box:hover > .search-btn{
+    background-color: rgb(14, 152, 165)           
+} 
+td, th{
+    text-align: center;
+    border:none;
+}
+th{
+    border-bottom: 1px solid gray;
+}
+
+
+h3{
+    color: white;
+}
+.edit svg:hover path{
+    fill:#0011ff;
+    
+}
+.delet svg:hover path{
+    fill:#f11515;
+}
+.devoL svg:hover path{
+    fill:#005780;
+}
+.alugarL svg:hover path{
+    fill:#00570c;
+}
+.copy svg:hover path{
+    fill:#00570c;
+}
+.disabled {
+    pointer-events: none;
+}
+.homebtn{
+    display:inline-block;
+    cursor: pointer;
+}
+.sobre {
+    background-color: rgb(10, 96, 104);
+    min-width: 100%;
+    position: absolute;
+    display: inline-block;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.sobre a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+}
+
+.baseboard{
+    margin-left: 1rem;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* altura do rodapé */
+}
+#page-container {
+    position: relative;
+    margin-top: 2rem;
+    min-height: 35vh;
+}
+
+.sobre a:hover{
+    color: rgb(98, 179, 255);
+}
+
+
